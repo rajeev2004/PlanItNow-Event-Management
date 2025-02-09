@@ -1,8 +1,46 @@
-# React + Vite
+# PlanItNow - Event Management Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PlanItNow is a robust event management platform that allows users to create, manage, and join events. Whether you're an organizer looking to create an event or a user interested in joining, PlanItNow provides an intuitive interface for all.
 
-Currently, two official plugins are available:
+## Features:
+1. **Authentication**: Users can register and log in to access the platform.
+2. **Create Events**: Users can create new events with detailed titles, descriptions, dates, and locations, and make them available for others to join.
+3. **Explore Events**: Browse through a list of upcoming events with detailed information.
+4. **Join Events**: Users can join events that they are interested in attending.
+5. **Manage Bookings**: Users can view and manage their event bookings, including the ability to cancel bookings.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+
+- **Frontend**: React.js for building the user interface.
+- **Backend**: Node.js and Express.js for handling server-side logic.
+- **Database**: PostgreSQL for storing user, event, and booking data.
+- **Styling**: CSS for styling the application.
+- **Libraries**: Axios for API communication, React Router for navigation.
+
+## Link
+
+- **Backend Repository**: https://github.com/rajeev2004/PlanItNow-backend
+
+## Setup Instructions
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/rajeev2004/PlanItNow-Event-Management.git
+   cd PlanItNow-Event-Management
+2. Install dependencies:
+    ```bash
+    npm install
+3. Configure the backend URL in the frontend code (e.g., the backend constant in the Dashboard.jsx file).
+4. Start the development server:
+    ```bash
+    npm start
+5. Run the backend server (ensure the database is set up):
+    ```bash
+    node server.js
+6. Access the application at http://localhost:3000.
+
+## Demo
+
+You can check out the live website [here](https://rajeev2004.github.io/PlanItNow-Event-Management/).
+
+![PlanItNow Screenshot](https://github.com/rajeev2004/WanderWise/blob/main/src/assets/Screenshot%202025-01-01%20194816.png?raw=true)
