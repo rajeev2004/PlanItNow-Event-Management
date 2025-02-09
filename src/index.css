@@ -1,0 +1,156 @@
+.form{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+    animation: tween 0.5s ease-in-out;
+}
+.Registerbuttonclass{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input,button,textarea{
+    padding: 10px 12px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+input{
+    border: 1px solid black;
+}
+button{
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #0056D2;
+    border: none;
+    color: white;
+}
+input:focus{
+    border: 2px blue solid;
+    outline: none;
+}
+textarea:focus{
+    border: 2px blue solid;
+    outline: none;
+}
+button:hover{
+    transform: scale(1.1);
+    background-color: #004bb5;
+}
+.header{
+    margin: 10px 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    animation: tween 0.5s ease-in-out;
+}
+.eventForm{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    animation: tween 0.5s ease-in-out;
+}
+.dashboardContainer,.guestLoginContainer,.Registercontainer,.Logincontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.upcomingEvents{
+    margin: 10px 10px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: flex-start
+}
+.pastEvents{
+    margin: 10px 10px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: flex-start
+}
+.EventContainer,.hostingEvent,.EventToAttendContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+    border: 1px black solid;
+    padding: 10px;
+    border-radius: 10px;
+}
+.EventContainerValues,.hostingEventDetails,.attendingEventDetails,.EventContent{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+p{
+    margin: 0;
+    font-size: 18px;
+}
+.EventContainerButton,.hostingEventButtons,.attendingEventButtons,.goToButton{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: flex-start;
+}
+.editEventContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 100px;
+}
+.editEventContainerComponents{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.editEventContainerComponents label{
+    width: 80px;
+    text-align: right;
+}
+.editEventContainerComponents input{
+    flex: 1;
+}
+.editEventContainerButtons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: flex-end;
+}
+h2:hover{
+    text-decoration: underline;
+}
+.name{
+    text-align: center;
+    background-color: yellow;
+}
+.viewEventContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex-wrap: wrap;
+    border: 1px black solid;
+    padding: 10px;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 30px auto;
+}
+@keyframes tween{
+    from{
+        opacity: 0;
+        transform: translateY(+20px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
