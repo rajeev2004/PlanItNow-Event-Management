@@ -37,10 +37,10 @@ PlanItNow is a robust event management platform that allows users to create, man
 5. Run the backend server (ensure the database is set up):
     ```bash
     node server.js
-6. Access the application at http://localhost:3000.
+6. Access the application at http://localhost:3000
 
 ## Demo
 
 You can check out the live website [here](https://rajeev2004.github.io/PlanItNow-Event-Management/).
 
-![PlanItNow Screenshot](https://github.com/rajeev2004/WanderWise/blob/main/src/assets/Screenshot%202025-01-01%20194816.png?raw=true)
+![PlanItNow Screenshot](https://raw.githubusercontent.com/rajeev2004/PlanItNow-Event-Management/refs/heads/main/src/assets/Screenshot%202025-02-09%20192337.png?raw=true)
