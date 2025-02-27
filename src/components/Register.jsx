@@ -3,7 +3,7 @@ import {useNavigate} from "react-router-dom";
 import axios from "axios";
 import {jwtDecode} from "jwt-decode";
 function Register(){
-    const backend="http://localhost:5000";
+    const backend="https://planitnow-backend.onrender.com";
     const navigate=useNavigate();
     const[name,setName]=useState("");
     const[email,setEmail]=useState("");
